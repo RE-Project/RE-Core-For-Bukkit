@@ -1,0 +1,8 @@
+name: RE-Lib
+version: 0.0.1
+author: AlasDiablo
+main: fr.reproject.relib.RELib
+commands:
+  reversion:
+    description: This is for show the version of the plugin
+    permission: relib.version
