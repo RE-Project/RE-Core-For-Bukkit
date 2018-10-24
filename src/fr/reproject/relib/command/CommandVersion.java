@@ -24,7 +24,7 @@ public class CommandVersion implements CommandExecutor {
             sender.sendMessage("\u00A72  +Plugin Load in \u00A73" + reference.NAME + "\u00A72 :");
             listSubPlugins(sender);
             sender.sendMessage("\u00A7a+\u00A72-------\u00A7b" + reference.NAME + "\u00A72-------\u00A7a+");
-        } else if (args[0] == "subplugin") {
+        } else if (args[0].equals("subplugin")) {
             sender.sendMessage("\u00A7a+\u00A72-------\u00A7b" + reference.NAME + "\u00A72-------\u00A7a+");
             listAllSubPlugins(sender);
             sender.sendMessage("\u00A7a+\u00A72-------\u00A7b" + reference.NAME + "\u00A72-------\u00A7a+");

@@ -1,8 +1,10 @@
-name: RE-Lib
+name: RECore-For-Bukkit
 version: 0.0.1
 author: AlasDiablo
 main: fr.reproject.relib.RELib
 commands:
   reversion:
     description: This is for show the version of the plugin
-    permission: relib.version
+    permission: recore.version
+    aliases: rver
+    permission-message: you need to be an admin

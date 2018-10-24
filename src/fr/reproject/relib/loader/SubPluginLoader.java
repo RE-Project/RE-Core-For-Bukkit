@@ -57,4 +57,9 @@ public class SubPluginLoader {
     public static SubPluginLoader getInstance() {
         return subPluginLoader;
     }
+
+    public boolean getPluginPresence(String name) {
+        String tmp = pluginName.toString();
+        return tmp.contains(name);
+    }
 }
